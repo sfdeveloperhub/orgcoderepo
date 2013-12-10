@@ -1,3 +1,4 @@
+//This is sample account trigger on account
 trigger SampleAccountTrigger on Account bulk (before insert) {
     for (Integer i = 0; i < Trigger.new.size(); i++) {
         Account acct = System.Trigger.new[i];

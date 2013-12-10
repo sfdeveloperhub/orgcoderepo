@@ -1,4 +1,5 @@
 @isTest
+//This is a sample deploy class.
 public class SampleDeployClass {
 
     public static testmethod void t1() {
