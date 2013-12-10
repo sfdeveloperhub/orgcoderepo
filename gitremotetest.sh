@@ -1,3 +1,4 @@
+
 isError=false;
 function test {
     "$@"
@@ -12,12 +13,3 @@ function test {
 test git ls-remote &> /dev/null 
 echo "The value is $isError"
 
-
-#check if remote repository is defined for 
-if $isError; then
-  git remote add origin https://github.com/sfdeveloperhub/orgcoderepo.git
-fi
-
-git add .
-git commit
-git push origin master
