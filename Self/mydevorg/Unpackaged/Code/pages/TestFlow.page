@@ -1,3 +1,0 @@
-<apex:page standardController="Koach_Brand__c">
-<flow:interview name="Picklist_Choice_Sample"/>
-</apex:page>
